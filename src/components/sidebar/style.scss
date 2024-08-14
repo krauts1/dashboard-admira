@@ -1,0 +1,28 @@
+.container-sidebar {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main main'
+        'menu main main main main main';
+    gap: 5px;
+
+    &_header {
+        grid-area: header;
+        background-color: #001529;
+        &_icon {
+            margin: 10px 0 10px 20px;
+            font-size: 30px;
+            color: #ffff;
+        }
+    }
+
+    &_body {
+        grid-area: menu;
+        ul {
+            height: 100%;
+        }
+    }
+    &_body-container {
+        grid-area: main;
+    }
+}

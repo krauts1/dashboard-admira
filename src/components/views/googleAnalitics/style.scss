@@ -1,0 +1,9 @@
+$medium: 900px;
+.analitics-charts-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 50% 50% ;
+    @media screen and (max-width: $medium) {
+        grid-template-columns: auto;
+    }
+}
