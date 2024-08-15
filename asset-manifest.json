@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dashboard-admira/static/css/main.f03f8f3f.css",
+    "main.js": "/dashboard-admira/static/js/main.4311b186.js",
+    "index.html": "/dashboard-admira/index.html",
+    "main.f03f8f3f.css.map": "/dashboard-admira/static/css/main.f03f8f3f.css.map",
+    "main.4311b186.js.map": "/dashboard-admira/static/js/main.4311b186.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f03f8f3f.css",
+    "static/js/main.4311b186.js"
+  ]
+}
